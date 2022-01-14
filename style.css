@@ -3,9 +3,7 @@
 }
 
 body {
-  margin: 0;
   font-family: sans-serif;
-  height: 100vh;
 }
 
 .header,
@@ -23,6 +21,7 @@ body {
   padding: 20px 60px;
 
   position: fixed;
+
   width: 100%;
 }
 
@@ -60,7 +59,7 @@ body {
   background-color: white;
 }
 
-main {
+.content {
   height: 100vh;
 
   background-image: url(./imgs/bg.jpg);
